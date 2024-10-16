@@ -1,0 +1,31 @@
+.table-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px;
+}
+
+.input-filteredData-searchQuery {
+  margin-bottom: 30px;
+}
+
+.searchQuery {
+  display: block;
+  margin-bottom: 0px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.search {
+  width: 200%;
+  max-width: 300px;
+  padding: 8px;
+  font-size: 18px;
+  border: 2px solid blue;
+  border-radius: 10px;
+}
+
+.search::placeholder {
+  color: black;
+  font-size: 17px;
+}
